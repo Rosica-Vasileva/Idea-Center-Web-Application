@@ -63,3 +63,4 @@ registered/logged).
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
 | TC1-11           | Users is not logged in | Verify the slides from carousel| 1.Open the application URL <br>2.Click on carousel <br>3.Wait for the slides to change automatically<br>Manually switch slides with the mouse| Slides can be changed automatically and manually without problem| Pass           
+
