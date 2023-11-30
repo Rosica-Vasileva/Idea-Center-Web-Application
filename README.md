@@ -1,67 +1,60 @@
-## Test Case 1 (Home Page)
-Users can access The Idea Center from its designated URL via the internet, which will load the Home page,
-Carousel, and Navigation Pane, appropriate to the user's logged-in status  (unregistered/non-logged or
-registered/logged).
+#  Idea Center Web Application
 
-## Unregistered/Non-Logged
+## Overview
 
-## TC1: Home Page Verification for Logged-Out Users
+This repository contains test cases and bug reports for the Idea Center web application as part of the QA Fundamentals and Manual Testing Exam Prep I.
 
-| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
-|------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC1-1             |Users is not logged in| Verify the Home page | 1.Open the application URL|The Home page is displayed with Home page,NavBar,Carousel | Pass           |
+## Software Requirements
 
-## TC2: NavBar Verification for Logged-Out Users
+### 1. Introduction
 
-| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
-|------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC1-2             | Users is not logged in | Verify the NavBar | 1.Open the application URL | The following button/link are present:Home page ,SIGNUP,SIGNUP FOR FREE| Pass           |
+#### 1.1. Purpose
 
-## TC3: Verify SIGNUP Button Functionality for Logged-Out Users
+This document provides a description of the Idea Center application, presenting an overview of its key functionalities.
 
-| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
-|------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC1-3             | Users is not logged in | Verify the SIGNUP button from NavBar | 1.Open the application URL <br>2.Click on SIGNUP button from upper right part in NavBar | SIGNUP button is loaded| Pass           |
+#### 1.2. Scope
 
-## TC4: Verify SIGNUP FOR FREE Button Functionality for Logged-Out Users
+The document covers high-level descriptions of basic functionalities, including user registration, login, profile editing, idea creation, and management. It excludes special user (Administrator) functionalities.
 
-| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
-|------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC1-4             | Users is not logged in | Verify the SIGNUP FOR FREE button from NavBar | 1.Open the application URL <br>2.Click on SIGNUP FOR FREE button from upper right part in NavBar | SIGNUP FOR FREE button is loaded| Pass           |
+### 2. Overall Description
 
-## TC5: Verify Link Back to Home Page Functionality for Logged-Out Users
+#### 2.1. System Environment
 
-| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
-|------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC1-5             | Users is not logged in | Verify the Link back to Home page | 1.Open the application URL <br>2.Click on Link to back from upper left part in NavBar |Link to back is loaded| Pass           |
+The Idea Center hosts two primary actors: unregistered/non-logged users and registered/logged users, accessible via Idea Center URL.
 
-## TC6: Verify the Carousel for Logged-Out Users
+#### 2.2. Key Features
 
-| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
-|------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC1-6             | Users is not logged in | Verify the Carousel | 1.Open the application URL | Veryfy the carousel display the following three section:<br>Be part of our community!<br>Alreday have an account?<br>Enjoy our site! | Pass           |
+- **Home Page for Unregistered/Non-Logged Users (2.2.1):** Main gateway with Navigation Menu, Carousel, and buttons for SIGN UP FOR FREE or SIGN IN.
 
-## TC7: Check Carousel Slide Buttons for Logged-Out Users
+- **Sign Up Page (2.2.2):** Accessed from the Home page, allowing users to sign up with specified requirements.
 
-| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
-|------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC1-7             | Users is not logged in | Checking the buttons in the carousel slides | 1.Open the application URL <br>2.Click on carousel|Two of the slides should be have buttons:<br>SIGNUP<br>SIGNUP FOR FREE| Pass           |
+- **Sign In Page (2.2.3):** Provides fields for email and password, directing logged-in users to an enhanced Home page.
 
-## TC8: Verify SIGN UP Button Functionality in Carousel for Logged-Out Users
+- **My Profile Page (2.2.5):** Accessible to logged users, displaying default profile elements and user information.
 
-| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
-|------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC1-8             | Users is not logged in | Verify the SIGN UP button from carousel | 1.Open the application URL <br>2.Click on SIGNUP button from carousel|SIGN UP buttons is loaded | Pass           |
+- **Edit Profile Info Page (2.2.6):** Accessed from the My Profile page, enabling users to edit profile details.
 
-## TC9: Verify SIGN UP FOR FREE Button Functionality in Carousel for Logged-Out Users
+- **Create Idea Page (2.2.8):** Accessed from the Navbar, allowing users to create new ideas with specified requirements.
 
-| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
-|------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC1-9            | Users is not logged in | Verify the SIGN UP FOR FREE button from carousel | 1.Open the application URL <br>2.Click on SIGNUP FOR FREE button from carousel| SIGN UP FOR FREE buttons is loaded| Pass           |
+- **Idea Management (2.2.9):** Users can manage created ideas on the My Ideas page, with options to view, edit, and delete.
 
-## TC11: Verify SIGN UP FOR FREE Button Functionality in Carousel for Logged-Out Users
-| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
-|------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC1-11           | Users is not logged in | Verify the slides from carousel| 1.Open the application URL <br>2.Click on carousel <br>3.Wait for the slides to change automatically<br>Manually switch slides with the mouse| Slides can be changed automatically and manually without problem| Pass         
+## Functional Requirements
+
+### Use Cases
+
+1. **Use Case 1 (Home Page):** Users access the Idea Center, loading the Home page, Carousel, and Navigation Pane.
+
+2. **Use Case 2 (User Registration):** Unregistered users successfully go through the Sign Up process.
+
+3. **Use Case 3 (User Sign In):** Registered users successfully go through the Sign In process.
+
+4. **Use Case 4 (Profile Management):** Logged users navigate to My Profile page, edit profile details, and view their Ideas count.
+
+5. **Use Case 5 (Idea Creation):** Logged users create a new idea and are redirected to the My Ideas page.
+
+6. **Use Case 6 (Idea Management):** On the My Ideas page, users see and manage their ideas, including viewing, editing, and deleting.
+
+
+
 
 
