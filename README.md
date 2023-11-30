@@ -56,4 +56,4 @@ registered/logged).
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC009            | Users is not logged in | Verify the SIGN UP FOR FREE button from carousel | 1.Open the application URL <br>2.Click on SIGNUP FOR FREE button from carousel| buttons:<br>SIGNUP<br>SIGNUP FOR | Pass           |
+| TC009            | Users is not logged in | Verify the SIGN UP FOR FREE button from carousel | 1.Open the application URL <br>2.Click on SIGNUP FOR FREE button from carousel| SIGN UP FOR FREE buttons is loaded| Pass           |
