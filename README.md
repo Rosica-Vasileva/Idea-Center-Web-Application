@@ -1,45 +1,59 @@
-## Part I - Idea Center Web Application
+## Use Case 1 (Home Page)
+Users can access The Idea Center from its designated URL via the internet, which will load the Home page,
+Carousel, and Navigation Pane, appropriate to the user's logged-in status (unregistered/non-logged or
+registered/logged).
 
-### Software Requirements
 
-#### 1. Introduction
+## TC1
 
-##### 1.1. Purpose
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC001             |Users is not logged in| Verify the Home page | 1.Open the application URL|The Home page is displayed with Home page,NavBar,Carousel | Pass           |
 
-The purpose of this document is to describe the Idea Center application, presenting an overview of its key functionalities.
+## TC2
 
-##### 1.2. Scope
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC002             | Users is not logged in | Verify the NavBar | 1.Open the application URL | The following button/link are present:Home page ,SIGNUP,SIGNUP FOR FREE| Pass           |
 
-This document covers high-level descriptions of the basic functionalities of the Idea Center, including user registration, login, profile editing, and idea creation and management. It excludes any special user (Administrator) functionalities.
+## TC3
 
-#### 2. Overall Description
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC003             | Users is not logged in | Verify the SIGNUP button from NavBar | 1.Open the application URL <br>2.Click on SIGNUP button from upper right part in NavBar | SIGNUP button is loaded| Pass           |
 
-##### 2.1. System Environment
+## TC4
 
-The Idea Center accommodates two primary actors: unregistered/non-logged users and registered/logged users. Both can access their respective parts of the application via the internet using the following URL:
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC004             | Users is not logged in | Verify the SIGNUP FOR FREE button from NavBar | 1.Open the application URL <br>2.Click on SIGNUP FOR FREE button from upper right part in NavBar | SIGNUP FOR FREE button is loaded| Pass           |
 
-[http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:83/](http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws .com:83/)
+## TC5
 
-##### 2.2. Key Features
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC005             | Users is not logged in | Verify the Link back to Home page | 1.Open the application URL <br>2.Click on Link to back from upper left part in NavBar |Link to back is loaded| Pass           |
 
-- **Unregistered/Non-logged Users:**
-  - Have access only to the Home page.
-  - Options to "SIGN UP FOR FREE" or "SIGN IN."
+## TC6
 
-- **Registered/Logged Users:**
-  - Access to main functionalities, including Profile editing, Idea creation, and Idea management.
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC006             | Users is not logged in | Verify the Carousel | 1.Open the application URL | Veryfy the carousel display the following three section:<br>Be part of our community!<br>Alreday have an account?<br>Enjoy our site! | Pass           |
 
-###### 2.2.1. Home Page for Unregistered/Non-Logged Users
+## TC7
 
-The Home page is the main gateway into the Idea Center.
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC007             | Users is not logged in | Checking the buttons in the carousel slides | 1.Open the application URL <br>2.Click on carousel|Two of the slides should be have buttons:<br>SIGNUP<br>SIGNUP FOR FREE| Pass           |
 
-- Contains a Navigation Menu (Navbar) with "SIGN IN" and "SIGN UP FOR FREE" buttons on the left and a link back to the Home page on the right.
-- Features a Carousel with three slides:
-  1. "Be part of our community"
-  2. "Already have an account?"
-  3. "Enjoy our site!"
+## TC8
 
-The slides change at random intervals, and users can manually cycle through them. Two of the slides contain call-to-action buttons prompting users to "SIGN UP FOR FREE" or "SIGN IN."
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC008             | Users is not logged in | Verify the SIGN UP button from carousel | 1.Open the application URL <br>2.Click on SIGNUP button from carousel|SIGN UP buttons is loaded | Pass           |
 
----
+## TC9
 
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC009            | Users is not logged in | Verify the SIGN UP FOR FREE button from carousel | 1.Open the application URL <br>2.Click on SIGNUP FOR FREE button from carousel| buttons:<br>SIGNUP<br>SIGNUP FOR | Pass           |
