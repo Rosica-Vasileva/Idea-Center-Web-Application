@@ -59,7 +59,3 @@ registered/logged).
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
 | TC1-9            | Users is not logged in | Verify the SIGN UP FOR FREE button from carousel | 1.Open the application URL <br>2.Click on SIGNUP FOR FREE button from carousel| SIGN UP FOR FREE buttons is loaded| Pass           |
 
-## TC10: Verify SIGN UP FOR FREE Button Functionality in Carousel for Logged-Out Users
-| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
-|------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC1-10         | Users is not logged in | Verify the slides from carousel| 1.Open the application URL <br>2.Click on carousel <br>3.Wait for the slides to change automatically<br>Manually switch slides with 
