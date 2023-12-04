@@ -5,7 +5,7 @@ registered/logged).
 
 ## Registered/Logged users
 
-## TC10: Verify NavBar Links
+## TC10: Verify NavBar Links  
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
