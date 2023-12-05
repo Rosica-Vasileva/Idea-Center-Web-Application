@@ -22,3 +22,16 @@ registered/logged).
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
 | TC1-12           |Users is logged in| Verify that the user can navigate to their profile from the Home page. | 1.Log in the application.<br>2.Go to the Home page.<br>3.Check on the ''My profile''link in the NavBar. |The user is redirected to their profil page. | Pass           |
+
+
+## TC13: Navigate to  "My ideas"
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC1-13           |Users is logged in| Verify that the user can navigate to their ideas from the Home page. | 1.Log in the application.<br>2.Go to the Home page.<br>3.Check on the ''My ideas''link in the NavBar. |The user is redirected to a page displaying their ideas. | Pass           |
+
+## TC14: Navigate to  Create idea
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC1-14           |Users is logged in| Verify the functionality to navigateto the "Create idea" page. | 1.Log in the application.<br>2.Go to the Home page.<br>3.Click on the "Create idea" link in the NavBar. |The user is redirected the page for creating a new idea. | Pass           |
