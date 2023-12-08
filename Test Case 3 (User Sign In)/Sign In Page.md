@@ -1,4 +1,4 @@
-## 3. Use Case 3 (User Sign In)
+## 3. Test Case 3 (User Sign In)
 
 Registered users should be able to successfully go through the Sign In process. They should be able to sign in using
 Email and Password.
