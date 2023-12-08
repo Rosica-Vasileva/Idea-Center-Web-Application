@@ -87,10 +87,24 @@ acceptance. User should have the option to Sign Up via Facebook or Google if he 
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC2-14           |Users is not logged in|  Verify registration with  Password and Repeat password on the lower boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco123".<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "12345".<br>6.Click on SIGN UP button. |Password has to be at least 6 symbols.|Pass       |
+| TC2-14           |Users is not logged in|  Verify registration with  Password and Repeat password on the lower boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco123".<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "12345" or "123Ab".<br>6.Click on SIGN UP button. |Password has to be at least 6 symbols.|Pass       |
 
 ## TC15: Verify registration with Password and Repeat password on the upper boundary .
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC2-15           |Users is not logged in|  Verify registration with  Password and Repeat password on the lower boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco123".<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "31 symbols".<br>6.Click on SIGN UP button. |Password has to be at max 30 symbols.|Fall       |
+| TC2-15           |Users is not logged in|  Verify registration with  Password and Repeat password on the lower boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco1235".<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "31 symbols"or "31 characters".<br>6.Click on SIGN UP button. |Password has to be at max 30 symbols.|Fall       |
+
+## TC16: Verify registration with Password and Repeat password in the  boundary .
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC2-16           |Users is not logged in|  Verify registration with  Password and Repeat password in the  boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco1235".<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "123456" оr "test11" .<br>6.Click on SIGN UP button. |User is successfully registration.|Pass       |
+
+## TC17: Verify registration with Password and Repeat password in the boundary .
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC2-17           |Users is not logged in|  Verify registration with  Password and Repeat password in the  boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco1235".<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "30 symbols" or  "30 characters".<br>6.Click on SIGN UP button. |User is successfully registration..|Pass       |
+
+
