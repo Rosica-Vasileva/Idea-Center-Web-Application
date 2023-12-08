@@ -9,4 +9,36 @@ acceptance. User should have the option to Sign Up via Facebook or Google if he 
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC2-1            |Users is not logged in| Verify SIGN UP labels and button. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button. |The following labels are present:<br>-Your Username<br>-Your Email address<br>-Password <br>-Repeat password <br>-I agree all statements and Terms and Services<br>-Register button<br>-"SIGN WITH GOOGLE"<br>-"SIGN WITH FACEBOOK" | Pass           |
+| TC2-1            |Users is not logged in| Verify SIGN UP labels and button. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button. |The following labels are present:<br>-Your Username<br>-Your Email address<br>-Password <br>-Repeat password <br>-I agree all statements and Terms and Services<br>-Register button<br>-"SIGN WITH GOOGLE"<br>-"SIGN WITH FACEBOOK" | Fail          |
+
+## TC2: Verify the field length.
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC2-2           |Users is not logged in| Verify the field length. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>Try to enter:<br> - more than 30 symbols in Username field;<br> - more than 254 in Email field;<br> - more than 30 characters in Password field;<br> - more than 30 characters in Repeat Password field; |User should not be able to enter more symbols than the specified one.| Pass<br> Comment:  The Username field only allows 30 characters to be entered.       |
+
+## TC3: Verify registration with Username on the lower boundary .
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC2-3            |Users is not logged in|  Verify registration with Username on the lower boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "B".<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |Validation message for Username should appears.|Pass        |
+
+## TC4: Verify registration with Username on the upper boundary .
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC2-4           |Users is not logged in|  Verify registration with Username on the upper boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "BB".<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |User is successfull registered.|Pass        |
+
+## TC5: Verify registration with Username on the upper boundary .
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC2-5           |Users is not logged in|  Verify registration with Username on the upper boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username 30 symbols.<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |User is successfull registered.|Pass        |
+
+## TC6: Verify registration with Username above the upper boundary .
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC2-6          |Users is not logged in|  Verify registration with Username above the upper boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username 31 symbols.<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |The field allows only 30 characters.|Pass        |
+
+
