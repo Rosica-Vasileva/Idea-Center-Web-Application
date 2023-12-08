@@ -11,3 +11,15 @@ Email and Password.
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
 | TC3-1            |Registered users| Confirm that a registered user can successfully log into the system using a valid usename and password. | 1.Open the application.<br>2.Enter a valid Email "koko@roco1.bg" and Password "123456" of a registered user.<br>Click on "SIGN IN" button. |The user is successfully logged in and redirected to the home page.|Pass         |
+
+## TC2: Login with invalid data - Email.
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC3-2            |Registered users| The system does not allow login with an invalid email. | 1.Open the application.<br>2.Enter a invalid Email "koko@roc.bg" and Password "123456" of a registered user.<br>Click on "SIGN IN" button. |The system displays an error message-Unable to sign in.|Pass         |
+
+## TC3: Login with invalid data - Password.
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC3-3            |Registered users| The system does not allow login with an invalid Password. | 1.Open the application.<br>2.Enter a valid Email "koko@roco1.bg" and Password "123456a" of a registered user.<br>Click on "SIGN IN" button. |The system displays an error message-Unable to sign in.|Pass         |
