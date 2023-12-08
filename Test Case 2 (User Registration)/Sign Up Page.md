@@ -77,3 +77,20 @@ acceptance. User should have the option to Sign Up via Facebook or Google if he 
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
 | TC2-12           |Users is not logged in|  Verify registration with Username on the lower boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco123".<br>4.Enter email "255 symbols".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |Validation message for Email should appears.|Fall        |
 
+## TC13: Verify SIGN UP labels and button.
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC2-13            |Users is not logged in| Verify SIGN UP labels and button. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button. |The following labels are present:<br>-Your Username<br>-Your Email address<br>-Password <br>-Repeat password <br>-I agree all statements and Terms and Services<br>-Register button<br>-"SIGN WITH GOOGLE"<br>-"SIGN WITH FACEBOOK" | Fail          |
+
+## TC14: Verify registration with Password and Repeat password on the lower boundary .
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC2-14           |Users is not logged in|  Verify registration with  Password and Repeat password on the lower boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco123".<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "12345".<br>6.Click on SIGN UP button. |Password has to be at least 6 symbols.|Pass       |
+
+## TC15: Verify registration with Password and Repeat password on the upper boundary .
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC2-15           |Users is not logged in|  Verify registration with  Password and Repeat password on the lower boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco123".<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "31 symbols".<br>6.Click on SIGN UP button. |Password has to be at max 30 symbols.|Fall       |
