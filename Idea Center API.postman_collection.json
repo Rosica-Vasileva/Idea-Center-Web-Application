@@ -1,0 +1,302 @@
+{
+	"info": {
+		"_postman_id": "cec6907c-f9af-44c6-b50c-faa37a70b288",
+		"name": "Idea Center API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31084177"
+	},
+	"item": [
+		{
+			"name": "ALL Methods",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:84/api/Info/Methods",
+					"protocol": "http",
+					"host": [
+						"softuni-qa-loadbalancer-2137572849",
+						"eu-north-1",
+						"elb",
+						"amazonaws",
+						"com"
+					],
+					"port": "84",
+					"path": [
+						"api",
+						"Info",
+						"Methods"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ALL Ideas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKd3RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI4ZmJkZTZjOC0yY2VkLTRhNTAtYjdjNC0xZTNmMWVkOTUzNDQiLCJpYXQiOiIxMi8xMi8yMDIzIDEyOjIwOjU1IiwiVXNlcklkIjoiOTAzZjQxMWMtNzU5NS00YThiLTFkN2YtMDhkYmZhZWE1MTM4IiwiRW1haWwiOiJyb2NvQGJhcm9jby5leGFtcGxlLmNvbSIsIlVzZXJOYW1lIjoicm9jby5iYXJvY28xMjIzIiwiZXhwIjoxNzAyNDA1MjU1LCJpc3MiOiJJZGVhQ2VudGVyX0FwcF9Tb2Z0VW5pIiwiYXVkIjoiSWRlYUNlbnRlcl9XZWJBUElfU29mdFVuaSJ9.7XZ1T9_rmPHR93wBamyHh9KOrj7coKcActIJ15BVns8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:84 /api/Idea/All",
+					"protocol": "http",
+					"host": [
+						"softuni-qa-loadbalancer-2137572849",
+						"eu-north-1",
+						"elb",
+						"amazonaws",
+						"com"
+					],
+					"port": "84 ",
+					"path": [
+						"api",
+						"Idea",
+						"All"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\": \"roco.baroco1223\",\r\n    \"email\": \"roco@baroco.example.com\",\r\n    \"password\": \"123456\",\r\n    \"rePassword\": \"123456\",\r\n    \"acceptedAgreement\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:84/api/User/Create",
+					"protocol": "http",
+					"host": [
+						"softuni-qa-loadbalancer-2137572849",
+						"eu-north-1",
+						"elb",
+						"amazonaws",
+						"com"
+					],
+					"port": "84",
+					"path": [
+						"api",
+						"User",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Authentication Token",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKd3RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI4ZmJkZTZjOC0yY2VkLTRhNTAtYjdjNC0xZTNmMWVkOTUzNDQiLCJpYXQiOiIxMi8xMi8yMDIzIDEyOjIwOjU1IiwiVXNlcklkIjoiOTAzZjQxMWMtNzU5NS00YThiLTFkN2YtMDhkYmZhZWE1MTM4IiwiRW1haWwiOiJyb2NvQGJhcm9jby5leGFtcGxlLmNvbSIsIlVzZXJOYW1lIjoicm9jby5iYXJvY28xMjIzIiwiZXhwIjoxNzAyNDA1MjU1LCJpc3MiOiJJZGVhQ2VudGVyX0FwcF9Tb2Z0VW5pIiwiYXVkIjoiSWRlYUNlbnRlcl9XZWJBUElfU29mdFVuaSJ9.7XZ1T9_rmPHR93wBamyHh9KOrj7coKcActIJ15BVns8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"roco@baroco.example.com\",\r\n    \"password\": \"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:84/api/User/Authentication",
+					"protocol": "http",
+					"host": [
+						"softuni-qa-loadbalancer-2137572849",
+						"eu-north-1",
+						"elb",
+						"amazonaws",
+						"com"
+					],
+					"port": "84",
+					"path": [
+						"api",
+						"User",
+						"Authentication"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Idea",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKd3RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI4ZmJkZTZjOC0yY2VkLTRhNTAtYjdjNC0xZTNmMWVkOTUzNDQiLCJpYXQiOiIxMi8xMi8yMDIzIDEyOjIwOjU1IiwiVXNlcklkIjoiOTAzZjQxMWMtNzU5NS00YThiLTFkN2YtMDhkYmZhZWE1MTM4IiwiRW1haWwiOiJyb2NvQGJhcm9jby5leGFtcGxlLmNvbSIsIlVzZXJOYW1lIjoicm9jby5iYXJvY28xMjIzIiwiZXhwIjoxNzAyNDA1MjU1LCJpc3MiOiJJZGVhQ2VudGVyX0FwcF9Tb2Z0VW5pIiwiYXVkIjoiSWRlYUNlbnRlcl9XZWJBUElfU29mdFVuaSJ9.7XZ1T9_rmPHR93wBamyHh9KOrj7coKcActIJ15BVns8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"1 Innovative Business Ideas that will re-shape your Career in 2021!\",\r\n    \"description\": \"With a young population that is willing to experiment with their business ideas, The Indian business landscape is preparing to witness an expansion.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:84 /api/Idea/Create",
+					"protocol": "http",
+					"host": [
+						"softuni-qa-loadbalancer-2137572849",
+						"eu-north-1",
+						"elb",
+						"amazonaws",
+						"com"
+					],
+					"port": "84 ",
+					"path": [
+						"api",
+						"Idea",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Idea",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKd3RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI2ZDI5YzZkMS1iNTBjLTQyNGMtYjA5Ni0yNzNhM2ZlYzU3NzEiLCJpYXQiOiIxMi8xMi8yMDIzIDIxOjQ3OjI4IiwiVXNlcklkIjoiOTAzZjQxMWMtNzU5NS00YThiLTFkN2YtMDhkYmZhZWE1MTM4IiwiRW1haWwiOiJyb2NvQGJhcm9jby5leGFtcGxlLmNvbSIsIlVzZXJOYW1lIjoicm9jby5iYXJvY28xMjIzIiwiZXhwIjoxNzAyNDM5MjQ4LCJpc3MiOiJJZGVhQ2VudGVyX0FwcF9Tb2Z0VW5pIiwiYXVkIjoiSWRlYUNlbnRlcl9XZWJBUElfU29mdFVuaSJ9.60BUS4M8Mn8ZEXDuAuXgAPY1nnaowqYCpjzgXjL_RJs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"EDIT idea\",\r\n    \"url\": null,\r\n    \"description\": \"EDIT idea\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:84/api/Idea/Edit?ideaId=be121121-dcb6-4742-7fe3-08dbfae8d40d",
+					"protocol": "http",
+					"host": [
+						"softuni-qa-loadbalancer-2137572849",
+						"eu-north-1",
+						"elb",
+						"amazonaws",
+						"com"
+					],
+					"port": "84",
+					"path": [
+						"api",
+						"Idea",
+						"Edit"
+					],
+					"query": [
+						{
+							"key": "ideaId",
+							"value": "be121121-dcb6-4742-7fe3-08dbfae8d40d"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Ideas",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKd3RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI2ZDI5YzZkMS1iNTBjLTQyNGMtYjA5Ni0yNzNhM2ZlYzU3NzEiLCJpYXQiOiIxMi8xMi8yMDIzIDIxOjQ3OjI4IiwiVXNlcklkIjoiOTAzZjQxMWMtNzU5NS00YThiLTFkN2YtMDhkYmZhZWE1MTM4IiwiRW1haWwiOiJyb2NvQGJhcm9jby5leGFtcGxlLmNvbSIsIlVzZXJOYW1lIjoicm9jby5iYXJvY28xMjIzIiwiZXhwIjoxNzAyNDM5MjQ4LCJpc3MiOiJJZGVhQ2VudGVyX0FwcF9Tb2Z0VW5pIiwiYXVkIjoiSWRlYUNlbnRlcl9XZWJBUElfU29mdFVuaSJ9.60BUS4M8Mn8ZEXDuAuXgAPY1nnaowqYCpjzgXjL_RJs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:84/api/Idea/Delete?ideaId=87fc6da5-61c9-46f6-7feb-08dbfae8d40d",
+					"protocol": "http",
+					"host": [
+						"softuni-qa-loadbalancer-2137572849",
+						"eu-north-1",
+						"elb",
+						"amazonaws",
+						"com"
+					],
+					"port": "84",
+					"path": [
+						"api",
+						"Idea",
+						"Delete"
+					],
+					"query": [
+						{
+							"key": "ideaId",
+							"value": "87fc6da5-61c9-46f6-7feb-08dbfae8d40d"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
