@@ -3,25 +3,25 @@ On the My Ideas page, logged users should see all their ideas listed. Each idea 
 and DELETE. If no ideas have been created yet, a No ideas yet! message should be displayed. Users also should have
 the option to search for ideas, based on keywords.
 
-## TC1:View Created Idea.
+## TC1:Viewing My Ideas by Logged-In Users.
 
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC6-1           |The user has successfully created an idea.|Users who have created a new ideas should be able to successfully view it. | 1.Locate the idea in the "My ideas" list.<br>2.Click on the "View" button for the created idea. |The idea is successfully viewed and the user sees the information entered during its creation.|Pass         |
+| TC6-1           |The user is registered in the system.<br>The user is logged into their account.|Logged-in users should be able to successfully view a list of all their ideas on the "My Ideas" page. |1. Navigate to the "My Ideas" page.<br>2. Verify that all ideas created by the user are listed. |The "My Ideas" page should successfully display a list of all ideas created by the logged-in user.|Pass         |
 
 
-## TC2:Edit Create Idea.
-
-
-| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
-|------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC6-2           |The user has successfully created an idea.|Users who have created a new ideas should be able to successfully edit it. | 1.Locate the idea in the "My ideas" list.<br>2.Click on the "Edit" button for the created idea.<br>3.Edit the information of the idea.<br>4.Save the changes. |Changes to the idea's information are successfully saved.|Pass         |
-
-
-## TC3: Delete Created Idea.
+## TC2:View, Edit, and Delete Ideas on "My Ideas" Page.
 
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC6-3            |The user has successfully created an idea.|Users who have created a new ideas should be able to successfully delete it. | 1.Locate the idea in the "My ideas" list.<br>2.Click on the "Delete" button for the created idea.<br>3.Confirm the deletion of the idea.|The idea is successfully deleted and is no longer visible in the "My Ideas" list.|Pass         |
+| TC6-2           |The user is registered in the system.<br>The user is logged into their account.|Logged-in users should be able to view a list of all their ideas on the "My Ideas" page. Each idea entry should provide options for VIEW, EDIT, and DELETE. |1.Navigate to the "My Ideas" page.<br>2.Verify that all created ideas are listed.<br>3.For each idea entry, check for VIEW, EDIT, and DELETE options. |The "My Ideas" page should display a list of all ideas created by the logged-in user.Each idea entry should include options for VIEW, EDIT, and DELETE.|Pass         |
+
+
+## TC3:Display "No Ideas Yet!" Message.
+
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC6-3            |The user is registered in the system.<br>The user is logged into their account.|If the logged-in user has not created any ideas, a "No ideas yet!" message should be displayed on the "My Ideas" page. |1. Navigate to the "My Ideas" page.|The "My Ideas" page should display a message stating "No ideas yet!" since the user has not created any ideas.|Pass         |
