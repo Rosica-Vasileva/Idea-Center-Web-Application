@@ -39,4 +39,12 @@ where the newly created idea should be present.
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC5-5            |The user has successfully created an idea.|Users who have created a new ideas should be able to successfully view it. | 1.Locate the idea in the "My ideas" list.<br>2.Click on the "View" button for the created idea. |The idea is successfully viewed and the user sees the information entered during its creation.|Pass         |
+| TC5-5            |The user has successfully created an idea.|Users who have created a new ideas should be able to successfully edit it. | 1.Locate the idea in the "My ideas" list.<br>2.Click on the "Edit" button for the created idea.<br>3.Edit the information of the idea.<br>4.Save the changes. |Changes to the idea's information are successfully saved.|Pass         |
+
+
+## TC6: Delete Created Idea.
+
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC5-6            |The user has successfully created an idea.|Users who have created a new ideas should be able to successfully edit it. | 1.Locate the idea in the "My ideas" list.<br>2.Click on the "Edit" button for the created idea.<br>3.Edit the information of the idea.<br>4.Save the changes. |Changes to the idea's information are successfully saved.|Pass         |
