@@ -1,4 +1,4 @@
-#  Idea Center Web Application
+
 
 ## Overview
 
@@ -40,19 +40,19 @@ The Idea Center hosts two primary actors: unregistered/non-logged users and regi
 
 ## Functional Requirements
 
-### Use Cases
+### Test Cases
 
-1. **Use Case 1 (Home Page):** Users access the Idea Center, loading the Home page, Carousel, and Navigation Pane.
+1. **Test Case 1 (Home Page):** Users access the Idea Center, loading the Home page, Carousel, and Navigation Pane.
 
-2. **Use Case 2 (User Registration):** Unregistered users successfully go through the Sign Up process.
+2. **Test Case 2 (User Registration):** Unregistered users successfully go through the Sign Up process.
 
-3. **Use Case 3 (User Sign In):** Registered users successfully go through the Sign In process.
+3. **Test Case 3 (User Sign In):** Registered users successfully go through the Sign In process.
 
-4. **Use Case 4 (Profile Management):** Logged users navigate to My Profile page, edit profile details, and view their Ideas count.
+4. **Test Case 4 (Profile Management):** Logged users navigate to My Profile page, edit profile details, and view their Ideas count.
 
-5. **Use Case 5 (Idea Creation):** Logged users create a new idea and are redirected to the My Ideas page.
+5. **Test Case 5 (Idea Creation):** Logged users create a new idea and are redirected to the My Ideas page.
 
-6. **Use Case 6 (Idea Management):** On the My Ideas page, users see and manage their ideas, including viewing, editing, and deleting.
+6. **Test Case 6 (Idea Management):** On the My Ideas page, users see and manage their ideas, including viewing, editing, and deleting.
 
 
 
