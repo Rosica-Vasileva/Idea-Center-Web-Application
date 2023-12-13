@@ -2,8 +2,17 @@
 Unregistered users should be able to successfully go through the Sign Up process. This involves the utilization of
 fields such as Username, Email, and Password, all subject to their respective constraints and character type
 acceptance. User should have the option to Sign Up via Facebook or Google if he prefers.
+The Sign Up page is accessed from the Home page. It contains form fields for entering a Username, Email,
+Password, and Repeat password. The form also includes a checkbox for agreeing to Terms of service, a hyperlink
+to view the full Terms of service document and a Register button to submit the form. The acceptable requirements
+for each field are specified as follows:
+Username: A 2-30 character field, accepting all character types.
+Email: Requires a valid email, 6-254 characters long.
+Password: Any characters are acceptable, with a length of 6-30 characters.
+Repeat Password: Must match password.
+There is an alternative sign up options via Google or Facebook.
 
-## Unregistered users
+## Unregistered Users
 
 ## TC1: Verify SIGN UP labels and button.
 
@@ -21,7 +30,7 @@ acceptance. User should have the option to Sign Up via Facebook or Google if he 
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC2-3            |Users is not logged in|  Verify registration with Username on the lower boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "B".<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |Validation message for Username should appears.|Pass        |
+| TC2-3            |The system supports usernames with a minimum allowed length.|Verify that the registration process successfully accepts and processes a user registration with a username at the lower boundary of the allowed length.| 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "B".<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |Validation message for Username should appears.|Pass        |
 
 ## TC4: Verify registration with Username on the upper boundary .
 
@@ -29,11 +38,11 @@ acceptance. User should have the option to Sign Up via Facebook or Google if he 
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
 | TC2-4           |Users is not logged in|  Verify registration with Username on the upper boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "BB".<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |User is successfull registered.|Pass        |
 
-## TC5: Verify registration with Username on the upper boundary .
+## TC5: Verify registration with Username in border .
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC2-5           |Users is not logged in|  Verify registration with Username on the upper boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username 30 symbols.<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |User is successfull registered.|Pass        |
+| TC2-5           |The system supports usernames with lengths within the boundary, i.e., at both the minimum and maximum allowed lengths.|  Verify registration with Username on the upper boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username 30 symbols.<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |User is successfull registered.|Pass        |
 
 ## TC6: Verify registration with Username above the upper boundary .
 
