@@ -3,12 +3,12 @@ On the My Ideas page, logged users should see all their ideas listed. Each idea 
 and DELETE. If no ideas have been created yet, a No ideas yet! message should be displayed. Users also should have
 the option to search for ideas, based on keywords.
 
-## TC1:Viewing My Ideas by Logged-In Users.
+## TC1:Viewing "My Ideas" by Logged-In Users.
 
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC6-1           |The user is registered in the system.<br>The user is logged into their account.|Logged-in users should be able to successfully view a list of all their ideas on the "My Ideas" page. |1. Navigate to the "My Ideas" page.<br>2. Verify that all ideas created by the user are listed. |The "My Ideas" page should successfully display a list of all ideas created by the logged-in user.|Pass         |
+| TC6-1           |The user is registered in the system.|Verify that logged-in users can successfully view a list of all their ideas on the "My Ideas" page. |1. Navigate to the "My Ideas" page.<br>2. Verify that all ideas created by the user are listed. |The "My Ideas" page should successfully display a list of all ideas created by the logged-in user.|Pass         |
 
 
 ## TC2:View, Edit, and Delete Ideas on "My Ideas" Page.
