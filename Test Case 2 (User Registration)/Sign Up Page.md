@@ -42,25 +42,25 @@ There is an alternative sign up options via Google or Facebook.
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC2-5           |The system supports usernames with lengths within the boundary, i.e., at both the minimum and maximum allowed lengths.|  Verify registration with Username on the upper boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username 30 symbols.<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |User is successfull registered.|Pass        |
+| TC2-5           |The system supports usernames with lengths within the boundary, i.e., at both the minimum and maximum allowed lengths.| Verify that the registration process successfully accepts and processes a user registration with a username at the boundary of the allowed length. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username 30 symbols.<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |User is successfull registered.|Pass        |
 
 ## TC6: Verify registration with Username above the upper boundary .
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC2-6          |Users is not logged in|  Verify registration with Username above the upper boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username 31 symbols.<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |The field allows only 30 characters.|Pass        |
+| TC2-6          |The system supports usernames with lengths at the upper boundary of the allowed range.| Verify that the registration process appropriately handles and communicates an attempt to register with a username exceeding the maximum allowed length. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username 31 symbols.<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |The field allows only 30 characters.|Pass        |
 
 ## TC7: Verify SIGN UP page.
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC2-7           |Users is not logged in|  Verify SIGN UP page. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button. |Loading the application registration form.|Pass        |
+| TC2-7           |The user is on the SIGN UP page.| Verify that the SIGN UP page is displayed and functions correctly. This includes checking the layout, content, and functionality of the SIGN UP page to ensure a seamless and user-friendly experience. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button. |Loading the application registration form.|Pass        |
 
-## TC8:Registration with invalid email format. .
+## TC8:Registration with invalid email format.
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC2-8           |Users is not logged in|  Verify registration with Username on the lower boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco123".<br>4.Enter email "qugd".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |A message appears that the email address format is entered incorrectly.|Fall  
+| TC2-8           |The registration page allows input of an email address.|  Verify that the registration process appropriately handles and communicates an attempt to register with an invalid email format. This includes testing scenarios where the entered email does not conform to the expected email format.| 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco123".<br>4.Enter email "qugd".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |A message appears that the email address format is entered incorrectly.|Fall  
 
 ## TC9: Verify registration with Email on the lower boundary .
 
