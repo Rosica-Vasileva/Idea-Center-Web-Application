@@ -15,7 +15,7 @@ registered/logged).
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC1-2             | Users is not logged in. | Verify the NavBar. | 1.Open the application URL. | The following button/link are present:Home page ,SIGNUP,SIGNUP FOR FREE.| Fall           |
+| TC1-2             | Users is not logged in. | Verify the NavBar. | 1.Open the application URL. | The following button/link are present:Home page ,SIGNIN,SIGNUP FOR FREE.| Fall           |
 
 ## TC3: Verify SIGNUP Button Functionality for Logged-Out Users.
 
