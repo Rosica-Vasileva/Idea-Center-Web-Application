@@ -2,19 +2,27 @@
 Unregistered users should be able to successfully go through the Sign Up process. This involves the utilization of
 fields such as Username, Email, and Password, all subject to their respective constraints and character type
 acceptance. User should have the option to Sign Up via Facebook or Google if he prefers.
+
+
 The Sign Up page is accessed from the Home page. It contains form fields for entering a Username, Email,
 Password, and Repeat password. The form also includes a checkbox for agreeing to Terms of service, a hyperlink
 to view the full Terms of service document and a Register button to submit the form. The acceptable requirements
 for each field are specified as follows:
-Username: A 2-30 character field, accepting all character types.
-Email: Requires a valid email, 6-254 characters long.
-Password: Any characters are acceptable, with a length of 6-30 characters.
-Repeat Password: Must match password.
-There is an alternative sign up options via Google or Facebook.
 
-## Unregistered Users
+# Username: A 2-30 character field, accepting all character types.
 
-## TC1: Verify SIGN UP labels and button.
+# Email: Requires a valid email, 6-254 characters long.
+
+# Password: Any characters are acceptable, with a length of 6-30 characters.
+
+# Repeat Password: Must match password.
+
+# There is an alternative sign up options via Google or Facebook.
+
+
+# Unregistered Users
+
+# TC1: Verify SIGN UP labels and button.
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
