@@ -34,7 +34,6 @@ Email and Password.
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC3-5            |The user has valid login credentials (valid username and password).|Verify "Remember Password" Checkbox. |1.Open the application.<br>2.Enter a valid username.<br>3.Enter a valid password.<br>4.Check the "Remember Password" checkbox.<br>5.Click on the login button.
-|The system should remember the user's login credentials for future sessions if the "Remember Password" checkbox is checked. The user should be logged in, and the system should preserve the login state.|Pass         |
+| TC3-5            |The user has valid login credentials (valid username and password).|Verify "Remember Password" Checkbox. |1.Open the application.<br>2.Enter a valid username.<br>3.Enter a valid password.<br>4.Check the "Remember Password" checkbox.<br>5.Click on the login button.|The system should remember the user's login credentials for future sessions if the "Remember Password" checkbox is checked. The user should be logged in, and the system should preserve the login state.|Pass         |
 
 
