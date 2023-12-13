@@ -105,8 +105,7 @@ for each field are specified as follows:
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC2-14          |The system supports passwords with a minimum allowed length of 6 characters and a maximum allowed length of 30 characters.|Verify that the system displays an error message when attempting to register with a password containing more than 30 characters. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco1235".<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password  "31 characters".<br>6.Click on SIGN UP button. |The system should display an error message indicating that a valid password requires a maximum of 30 characters.
-|Fall       |
+| TC2-14          |The system supports passwords with a minimum allowed length of 6 characters and a maximum allowed length of 30 characters.|Verify that the system displays an error message when attempting to register with a password containing more than 30 characters. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco1235".<br>4.Enter email "test@test.bg".<br>5.Enter password and repeat password  "31 characters".<br>6.Click on SIGN UP button. |The system should display an error message indicating that a valid password requires a maximum of 30 characters.|Fall       |
 
 ## TC15:Registration with Password and Repeat Password at Minimum Length - 6 characters .
 
