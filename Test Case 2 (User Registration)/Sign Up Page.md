@@ -1,4 +1,4 @@
-## Use Case 2 (User Registration)
+## Test Case 2 (User Registration)
 Unregistered users should be able to successfully go through the Sign Up process. This involves the utilization of
 fields such as Username, Email, and Password, all subject to their respective constraints and character type
 acceptance. User should have the option to Sign Up via Facebook or Google if he prefers.
