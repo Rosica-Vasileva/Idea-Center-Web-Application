@@ -24,7 +24,7 @@ registered/logged).
 | TC1-11           |Users is logged in.| Verify that the user can navigate to their profile from the Home page. | 1.Log in the application.<br>2.Go to the Home page.<br>3.Check on the ''My profile''link in the NavBar. |The user is redirected to their profil page. | Pass           |
 
 
-## TC12: Navigate to  "My ideas"  for Registered Users.
+## TC12: Navigate to  "My Ideas"  for Registered Users.
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
