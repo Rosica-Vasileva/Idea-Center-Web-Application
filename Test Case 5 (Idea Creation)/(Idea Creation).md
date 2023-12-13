@@ -39,4 +39,13 @@ the user can click on the CREATE button to save the idea.
 
 
 
+## TC5:Redirect to "My Ideas" after Idea Creation.
+
+
+| **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
+|------------------|-----------------|------------------------|-----------|----------------------|---------------|
+| TC5-5            |The user has navigated to the "Create Idea" page from the Navbar.|Verify Boundary Value Analysis (BVA) for Title and Describe Fields during Idea Creation. |1.Open the application.<br>2.Log in with valid credentials.<br>3.Navigate to the "Create Idea" page from the Navbar.<br>4.For the Title field:<br>a. Enter a title with 2 characters length.<br>b. Enter a title with 3 characters length.<br>c. Enter a title with 70 characters length.<br>d. Enter a title with 71 characters length.<br>For the Describe field:<br>a. Enter a description with 2 characters length.<br>b. Enter a description with 3 characters length.<br>c. Enter a description with 400 characters length.<br>d. Enter a description with 401 characters length.<br>Click on the "CREATE" button. |The user is successfully redirected to the "My Ideas"page,and the newly created ideas is displayed.|Pass         |
+
+
+
 
