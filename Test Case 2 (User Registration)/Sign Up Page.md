@@ -68,21 +68,21 @@ for each field are specified as follows:
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC2-8           |The registration page allows input of an email address.|  Verify that the registration process appropriately handles and communicates an attempt to register with an invalid email format. This includes testing scenarios where the entered email does not conform to the expected email format.| 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco123".<br>4.Enter email "qugd".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |A message appears that the email address format is entered incorrectly.|Fall  
+| TC2-8           |The registration page allows input of an email address.|  Verify that the registration process appropriately handles and communicates an attempt to register with an invalid email format.| 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco123".<br>4.Enter email "qugd".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |A message appears that the email address format is entered incorrectly.|Fall  
 
 ## TC9: Verify registration with Email on the lower boundary .
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC2-9            |Users is not logged in|  Verify registration with email on the lower boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco123".<br>4.Enter email "b@.b".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |Validation message for email should appears- email has to be at least 6 characters.|Pass        |
+| TC2-9            |The system supports email addresses with a minimum allowed length.| Verify that the registration process successfully accepts and processes a user registration with an email address at the lower boundary of the allowed length. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco123".<br>4.Enter email "b@.b".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |Validation message for email should appears- email has to be at least 6 characters.|Pass        |
 
-## TC10: Verify registration with Email in boundary .
+## TC10: Verify registration with Email in boundary - 6 symbols .
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
-| TC2-10            |Users is not logged in|  Verify registration with Username on the lower boundary. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco123".<br>4.Enter email "f@a.bg".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |User is successfully registration.|Pass        |
+| TC2-10            |The system supports email addresses with lengths within the boundary, i.e., at both the minimum and maximum allowed lengths.| Verify that the registration process successfully accepts and processes a user registration with an email address at the boundary of the allowed length. | 1.Open the application.<br>2.Click on SIGN UP FOR FREE button.<br>3.Enter for username "roco123".<br>4.Enter email "f@a.bg".<br>5.Enter password and repeat password "123456".<br>6.Click on SIGN UP button. |User is successfully registration.|Pass        |
 
-## TC11: Verify registration with Email in boundary .
+## TC11: Verify registration with Email in boundary 254 symbols .
 
 | **Test Case ID** | **Prequisites** | **Title/Description** | **Steps** | **Expected Result** | **Pass/Fail** |
 |------------------|-----------------|------------------------|-----------|----------------------|---------------|
